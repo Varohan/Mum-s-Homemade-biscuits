@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #d2691e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color:  white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: #fff8f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.product h3 {
+    margin: 0.5rem 0;
+    color: #d2691e;
+}
+
+.product p {
+    font-weight: bold;
+    color: #333;
+}
+
+.product button {
+    background: #d2691e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background: #a0522d;
+}
+
+#products h2 {
+    font-size: 2.5rem;           /* Make it big */
+    text-align: center;          /* Center text */
+    margin-bottom: 30px;         /* Space between header and products */
+    color: #d2691e;              /* Warm biscuit color */
+    text-transform: uppercase;   /* OPTIONAL: make it all caps */
+    letter-spacing: 2px;         /* Slight spacing between letters */
+    position: relative;          /* Needed for the underline effect */
+}
+
+#products h2::after {
+    content: "";
+    display: block;
+    width: 80px;                 /* Length of the underline */
+    height: 4px;                 /* Thickness of the underline */
+    background: #d2691e;         /* Same color as title */
+    margin: 10px auto 0;         /* Center it under text */
+    border-radius: 2px;
+}
+
+/* Section container */
+#products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Heading styling */
+#products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;     /* space between heading and cards */
+    color: #d2691e;
+    letter-spacing: 1px;
+}
+
+/* Grid of cards */
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;               /* spacing between cards */
+}
+
+/* Individual card */
+.product {
+    background: #fff8f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.product h3 {
+    margin: 0.5rem 0;
+    color: #d2691e;
+}
+
+.product p {
+    font-weight: bold;
+    color: #333;
+}
+
+.product button {
+    background: #d2691e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background: #a0522d;
+}
+
+/* Make the header content sit side-by-side */
+.header-logos {
+    display: flex;
+  justify-content: space-between;  /* left logo / title / right logo */
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Logo size */
+.logo {
+  width: 60px;       /* adjust as needed */
+    height: auto;
+}
+
+/* Title styling */
+.header-logos h1 {
+    font-size: 2rem;
+    color: #d2691e;
+    text-align: center;
+    margin: 0;
+}
+
+/* Optional: add a nice background to header */
+header {
+    background: #fff8f0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d2691e;
+}
+
