@@ -199,3 +199,34 @@ header {
     border-bottom: 2px solid #d2691e;
 }
 
+.whatsapp-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 14px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+}
+
+.email-btn {
+    display: inline-block;
+    background: #d2691e;
+    color: white;
+    padding: 14px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.email-btn:hover {
+    transform: scale(1.05);
+}
