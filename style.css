@@ -12,7 +12,7 @@ header {
 }
 
 nav a {
-    color:  white;
+    color:  black;
     margin: 0 1rem;
     text-decoration: none;
 }
@@ -229,4 +229,53 @@ header {
 
 .email-btn:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+
+    .header-logos {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-logos h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .product {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #products h2 {
+        font-size: 2rem;
+    }
+}
+
+    #feedback {
+        padding: 50px 20px;
+        text-align: center;
+        background: #fff8f0;
+}
+
+    .feedback-description {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 20px;
+}
+
+    #feedback iframe {
+        max-width: 100%;
+        border-radius: 12px;
 }
